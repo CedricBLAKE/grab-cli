@@ -87,16 +87,14 @@ Config at `~/.grab/grab.json`:
 
 ## Ecosystem
 
-- **[grab](https://github.com/grabbot-io/grab)** — CLI + Gateway
-- **[GrabHub](https://github.com/grabbot-io/grab-hub)** — Skill registry
-- **[nix-grab](https://github.com/grabbot-io/nix-grab)** — Nix flake
+- **[grab-cli](https://github.com/CedricBLAKE/grab-cli)** — CLI + Gateway
+- **[grab-hub](https://github.com/CedricBLAKE/grab-hub)** — Skill registry
+- **[nix-grab](https://github.com/CedricBLAKE/nix-grab)** — Nix flake
 
 ## $GRAB
 
-**$GRAB** — 1B total supply on Solana
-
-Contract: [`F2pPtA8CwY13AH6csp55RhMNQj7f464Ktrkr4yW6GRAB`](https://solscan.io/token/F2pPtA8CwY13AH6csp55RhMNQj7f464Ktrkr4yW6GRAB)
+**$GRAB** — Agentic eco-system token on Solana
 
 ---
 
-Built with 🦀 by the GRAB community · [grabbot.io](https://grabbot.io)
+Built with 🦀 by [@CedricBlake7](https://x.com/CedricBlake7) · [grabbot.io](https://grabbot.io)

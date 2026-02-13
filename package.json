@@ -1,8 +1,8 @@
 {
   "name": "grab",
   "version": "2026.2.12",
-  "description": "GRAB — Personal AI assistant powered by Grok. Run locally, connect everywhere.",
-  "author": "GRABBOT.io",
+  "description": "GRAB \u2014 Personal AI assistant powered by Grok. Run locally, connect everywhere.",
+  "author": "CedricBLAKE",
   "license": "MIT",
   "type": "module",
   "main": "dist/index.js",
@@ -69,10 +69,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/grabbot-io/grab"
+    "url": "https://github.com/CedricBLAKE/grab-cli"
   },
   "homepage": "https://grabbot.io",
   "bugs": {
-    "url": "https://github.com/grabbot-io/grab/issues"
+    "url": "https://github.com/CedricBLAKE/grab-cli/issues"
   }
 }
