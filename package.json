@@ -1,0 +1,78 @@
+{
+  "name": "grab",
+  "version": "2026.2.12",
+  "description": "GRAB — Personal AI assistant powered by Grok. Run locally, connect everywhere.",
+  "author": "GRABBOT.io",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "grab": "./bin/grab.js"
+  },
+  "files": [
+    "bin/",
+    "dist/",
+    "templates/",
+    "docs/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "gateway": "tsx src/gateway/server.ts",
+    "gateway:watch": "tsx watch src/gateway/server.ts",
+    "grab": "tsx src/cli.ts",
+    "lint": "eslint src/",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "grab",
+    "grok",
+    "ai",
+    "assistant",
+    "cli",
+    "whatsapp",
+    "telegram",
+    "discord",
+    "slack",
+    "local-first"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "conf": "^13.0.1",
+    "enquirer": "^2.4.1",
+    "express": "^4.21.0",
+    "got": "^14.4.0",
+    "ora": "^8.1.0",
+    "ws": "^8.18.0",
+    "dotenv": "^16.4.5",
+    "eventsource": "^2.0.2",
+    "open": "^10.1.0",
+    "update-notifier": "^7.3.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.0.0",
+    "@types/ws": "^8.5.12",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0",
+    "eslint": "^9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/grabbot-io/grab"
+  },
+  "homepage": "https://grabbot.io",
+  "bugs": {
+    "url": "https://github.com/grabbot-io/grab/issues"
+  }
+}
